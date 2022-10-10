@@ -1,0 +1,22 @@
+
+for _,v in pairs(game:GetService("Workspace").Questions:GetChildren()) do
+
+    for a,x in pairs(v:GetChildren()) do
+
+        if x.Name ~= "Obby" then
+
+            if x.Name == "10" then
+
+                 x["Question+Choices"].TELEPORT.WalkThroughTeleport.BrickColor = BrickColor.new("Lime green")  
+
+                else
+
+                   x["Question+Choices"].CorrectDoor.BrickColor = BrickColor.new("Lime green")  
+
+             end
+
+         end
+
+     end
+
+ end 
